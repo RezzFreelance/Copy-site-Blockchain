@@ -1,0 +1,140 @@
+*{
+    transition: all 0.5s ease 0s;
+}
+body{
+    background: rgb(18, 29, 51);
+}
+header{
+    background: url(https://login.blockchain.com/img/bg-pattern.svg);
+    width: 100%;
+    padding: 40px;
+}
+form{
+    margin-top: 40px;
+}
+h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin: 30px;
+}
+h2{
+    font-weight: 500;
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 10px;
+    margin: 30px;
+}
+.form-block{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #eee;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-block p{
+    margin: 0;
+    padding: 0;
+    font-style: 10px;
+    margin: 2px;
+}
+input{
+    min-width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    color: rgb(53, 63, 82);
+    outline: 0;
+    border: 1px solid blue;
+    margin-top: 5px;
+}
+.custom-btn{
+    padding: 10px;
+    min-width: 100%;
+    color: #fff;
+    border-radius: 10px;
+    outline: 0;
+    border: none;
+    margin-top: 5px;
+    background: #113CFC;
+}
+a{
+    text-decoration: none;
+}
+.m{
+    margin-top: 10px;
+}
+.nety{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: inherit;
+    text-transform: none;
+    font-style: normal;
+    color: rgb(152, 161, 178);
+    cursor: inherit;
+    display: block;
+    opacity: 1;
+    margin-top: 5px;
+}
+.nety a, .end a{
+    color: #fff;
+}
+.ubi{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: inherit;
+    text-transform: none;
+    font-style: normal;
+    color: rgb(152, 161, 178);
+    cursor: inherit;
+    display: block;
+    opacity: 1;
+}
+.chek{
+    background: #2a3448;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    color: #828B9D;
+    text-align: center;
+    max-width: 500px;
+}
+
+.end{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: inherit;
+    text-transform: none;
+    font-style: normal;
+    color: rgb(152, 161, 178);
+    cursor: inherit;
+    display: block;
+    opacity: 1;
+    margin-top: 60px;
+}
+
+#alert{
+    transform: translateY(-100%);
+    display: none;
+    width: 100%;
+}
+
+@keyframes show {
+    0%{
+        transform: translateY(-1000%);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.form-block-another{
+    
+    display: inline-block;
+    width: 200px;
+    margin-top: 30px; 
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #eee;
+    border-right: 5px solid purpleж
+}
